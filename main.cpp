@@ -9,7 +9,7 @@ char** board;
 
 // Initialize the dynamic board with your board configuration
 // NOTE: UNCOMMENT WHICH BOARD TO USE
-/*// Simple example
+/*// Simple
 const int BOARD_SIZE = 1;
 const char* initialBoard[BOARD_SIZE] = {
 	"11010"

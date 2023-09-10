@@ -2,6 +2,7 @@
 # Peg Solitaire Solver
 
 This program is designed to solve the Peg Solitaire puzzle using various board configurations. It includes a specific 5-row triangle board, but you can also choose from other predefined boards or even load custom boards from files.
+> NOTE: CANNOT YET LOAD CUSTOM BOARDS FROM FILES, BUT YOU CAN MAKE A CUSTOM BOARD IN `main.cpp`.
 
 ![Example Simple Board](./ex.jpg)
 ![Example Triangle Board](./ex_triangle.jpg)
@@ -21,7 +22,7 @@ To use the program, you can choose from different predefined boards or load cust
 
 > By default, the triangle board is chosen, as shown below:
 ```cpp
-/*// Simple example
+/*// Simple
 const int BOARD_SIZE = 1;
 const char* initialBoard[BOARD_SIZE] = {
 	"11010"
@@ -53,12 +54,13 @@ You can uncomment this board configuration in the code to use it, and there are 
 ## Algorithm Efficiency
 
 The program utilizes a graph traversal and path searching algorithm, specifically bidirectional breadth-first IDA* (BFIDA*), to solve the Peg Solitaire puzzle. This approach aims to find an efficient solution by exploring the puzzle space in both directions from the initial state.
+> NOTE: THE PROGRAM DOES NOT CURRENTLY SUPPORT `BFIDA*`; IT USES A MORE BRUTE-FORCE APPROACH.
 
 ## To-Do List
 
-- Clean up the codebase for better readability and maintainability.
-- Optimize the solving algorithm for faster results.
-- Implement a function to take in a filename and interpret a custom board from a file to set as the initial board. This feature will allow you to create and solve custom Peg Solitaire boards easily.
+- [ ] Clean up the codebase for better readability and maintainability.
+- [ ] Optimize the solving algorithm for faster results.
+- [ ] Implement a function to take in a filename and interpret a custom board from a file to set as the initial board. This feature will allow you to create and solve custom Peg Solitaire boards easily.
 
 ```cpp
 // NOTE: ATTEMPT TO MAKE ALGORITHM MORE EFFICIENT BY USING BIDIRECTIONAL BREADTH-FIRST IDA(ITERATIVE DEEPENING A*)* (BFIDA*) GRAPH TRAVERSAL AND PATH SEARCHING ALGORITHM
