@@ -4,6 +4,11 @@
 This program is designed to solve the Peg Solitaire puzzle using various board configurations. It includes a specific 5-row triangle board, but you can also choose from other predefined boards or even load custom boards from files.
 > NOTE: CANNOT YET LOAD CUSTOM BOARDS FROM FILES, BUT YOU CAN MAKE A CUSTOM BOARD IN `main.cpp`.
 
+```diff
+- ON SOME BOARD CONFIGURATIONS, THE PROGRAM TAKES A LONG TIME & USES A LOT OF CPU PROCESSING POWER.
+CTRL-C & CTRL-Z WILL HALT THE PROGRAM. CLOSE THE TERMINAL WINDOW AFTER STOPPING THE PROGRAM TO RESTORE CPU POWER TO A LOWER PERCENT USAGE.
+```
+
 ![Example Simple Board](./ex.jpg)
 ![Example Triangle Board](./ex_triangle.jpg)
 ![Example Diamond Board](./ex_diamond.jpg)
