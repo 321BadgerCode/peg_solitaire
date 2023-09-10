@@ -76,4 +76,6 @@ The program utilizes a graph traversal and path searching algorithm, specificall
 	// NOTE: FILENAME WOULD BE PASSED IN AS CMD. ARG.
 ```
 
+## Contribute
+
 Feel free to contribute to the project or use it to challenge yourself with Peg Solitaire puzzles!
